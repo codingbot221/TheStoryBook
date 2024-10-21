@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CleverFish">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_clever_fish"
+        android:textAlignment="center"
+        android:textColor="#FD1111"
+        android:backgroundTint="#EA9696"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="25dp" />
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="689dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="41dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:paddingTop="10dp"
+                android:src="@drawable/download" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:text="@string/fre"
+            android:textColor="#0F1E64"
+            android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:src="@drawable/fish" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/the_clever_fish_agreed_and_quickly_swam_away_to_a_nearby_river_finding_safety_before_the_fishermen_arrived_but_the_carefree_fish_who_loved_the_pond_and_didn_t_want_to_leave_laughed_and_said_oh_i_ve_been_here_my_whole_life_i_ll_be_fine_the_fishermen_won_t_catch_me_the_next_day_the_fishermen_came_as_planned_they_cast_their_nets_into_the_pond_and_while_the_wise_and_clever_fish_were_safe_in_their_new_home_the_carefree_fish_was_caught_in_the_net_the_story_reminds_us_that_being_clever_and_wise_can_help_us_avoid_danger_while_ignoring_warnings_may_lead_to_trouble"
+            android:textColor="#0F1E64"
+            android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

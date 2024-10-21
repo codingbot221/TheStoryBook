@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HonestyPolicy">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/honesty_is_the_best_policy"
+        android:textAlignment="center"
+        android:textColor="#FD1111"
+        android:backgroundTint="#EA9696"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="25dp" />
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="689dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="41dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:paddingTop="10dp"
+                android:src="@drawable/hp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:text="@string/the_story_follows_a_poor_woodcutter_named_ram_who_lived_on_the_outskirts_of_a_village_and_earned_his_livelihood_by_cutting_wood_and_selling_it_to_a_merchant_one_day_while_working_near_a_river_his_axe_accidentally_fell_into_the_water_distraught_as_his_axe_was_his_only_means_of_income_ram_prayed_for_help_moved_by_his_sincerity_god_appeared_before_him_and_offered_to_help_god_first_retrieved_a_silver_axe_from_the_river_and_asked_if_it_belonged_to_ram_though_tempted_ram_refused_saying_it_wasn_t_his_next_god_pulled_out_a_golden_axe_but_again_ram_honestly_said_that_it_wasn_t_his_axe_finally_god_retrieved_ram_s_iron_axe_and_ram_gratefully_accepted_it_impressed_by_ram_s_honesty_and_integrity_god_rewarded_him_by_giving_him_the_silver_and_golden_axes_along_with_his_own_ram_accepted_them_with_a_grateful_heart_and_continued_to_live_an_honest_contented_life_no_longer_poor"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:src="@drawable/hp2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/moral_of_the_story_the_story_teaches_that_honesty_is_always_the_best_policy_ram_despite_his_difficult_situation_remained_truthful_and_was_rewarded_for_his_integrity_the_story_encourages_children_to_be_honest_in_all_situations_showing_that_honesty_is_valued_and_leads_to_positive_outcomes_this_moral_can_be_applied_in_real_life_by_encouraging_children_to_be_truthful_and_kind_even_when_faced_with_challenges_honesty_helps_build_trust_and_integrity_is_rewarded_in_the_long_run"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

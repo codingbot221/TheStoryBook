@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:background="#949CEF"
+    tools:context=".LogoutFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:padding="24dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="12dp"
+        android:backgroundTint="@color/white"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <!-- Confirmation Text -->
+            <TextView
+                android:id="@+id/tv_logout_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you sure you want to logout?"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"
+                android:gravity="center" />
+
+            <!-- Yes Button -->
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/pink_accent"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:elevation="4dp" />
+
+            <!-- No Button -->
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/grey"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:elevation="4dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="178dp"
+        android:layout_height="248dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/app_logo" />
+
+</FrameLayout>

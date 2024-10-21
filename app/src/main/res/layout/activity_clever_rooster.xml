@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CleverRooster">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_clever_rooster"
+        android:textAlignment="center"
+        android:textColor="#FD1111"
+        android:backgroundTint="#EA9696"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="25dp" />
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="689dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="41dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:paddingTop="10dp"
+                android:src="@drawable/roo" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:text="@string/once_upon_a_time_there_was_a_clever_rooster_who_lived_in_a_farmyard_one_day_while_wandering_in_the_forest_he_encountered_a_hungry_fox_the_fox_known_for_being_sly_sweet_talked_the_rooster_saying_dear_rooster_i_have_heard_about_your_wonderful_voice_would_you_sing_for_me_the_rooster_sensing_the_fox_s_cunning_intentions_decided_to_outsmart_him_pretending_to_agree_the_rooster_said_of_course_i_ll_sing_for_you_but_first_you_must_close_your_eyes_and_bow_your_head_in_respect_the_fox_eager_to_pounce_on_the_rooster_did_as_he_was_told_closing_his_eyes_and_lowering_his_head_seizing_the_opportunity_the_rooster_quickly_flew_up_to_a_high_tree_branch_safely_out_of_the_fox_s_reach_realizing_he_had_been_tricked_the_fox_tried_to_convince_the_rooster_to_come_down_but_the_rooster_now_aware_of_the_fox_s_deceit_refused_to_listen_he_knew_he_had_outwitted_the_fox_so_he_stayed_safely_perched_on_the_branch_watching_as_the_fox_slinked_away_in_defeat"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:src="@drawable/roo2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/moral_of_the_story_the_story_teaches_that_clever_thinking_can_help_us_overcome_dangerous_situations_even_when_facing_deceitful_or_cunning_opponents_the_rooster_s_quick_wit_saved_him_from_being_captured_by_the_fox_showing_that_intelligence_and_presence_of_mind_are_often_more_valuable_than_physical_strength_this_moral_can_be_applied_in_real_life_by_encouraging_children_to_think_carefully_and_use_their_intellect_to_navigate_tricky_situations_rather_than_rushing_into_danger_or_trusting_deceitful_individuals"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

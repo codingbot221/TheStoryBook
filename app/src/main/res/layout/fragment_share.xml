@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white"
+    tools:context=".ShareFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="OUR HANDLES"
+        android:textColor="#8650EF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="55dp"/>
+
+    <ImageView
+        android:id="@+id/linkedin_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/linkedin_logo"
+        android:contentDescription="LinkedIn Logo"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/circle_background"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/instagram_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/instagram_logo"
+        android:contentDescription="Instagram Logo"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_background"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/whatsapp_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/whatsapp_logo"
+        android:contentDescription="WhatsApp Logo"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_background"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/facebook_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/facebook_logo"
+        android:contentDescription="Facebook Logo"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_background"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/contact_us_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/contact_us_logo"
+        android:contentDescription="Contact Us"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/circle_background"
+        android:padding="16dp" />
+
+</LinearLayout>

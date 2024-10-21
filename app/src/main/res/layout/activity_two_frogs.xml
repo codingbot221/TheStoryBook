@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_two_frogs"
+        android:textAlignment="center"
+        android:textColor="#FD1111"
+        android:backgroundTint="#EA9696"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="25dp" />
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="689dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="41dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:paddingTop="10dp"
+                android:src="@drawable/fg" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:text="@string/the_story_of_two_frogs_is_about_two_frogs_that_fall_into_a_deep_pit_while_traveling_with_their_group_through_a_forest_the_other_frogs_seeing_the_depth_of_the_pit_discourage_them_from_trying_to_escape_assuming_they_are_doomed_despite_the_negative_comments_one_frog_persists_in_trying_to_jump_out_while_the_other_eventually_gives_up_and_tragically_falls_to_its_death"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6ECEC"
+                android:src="@drawable/fg2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7sp"
+                android:layout_marginEnd="5sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/the_moral_of_the_story_is_that_we_should_be_resilient_in_pursuing_our_goals_and_not_let_negative_comments_deter_us_the_deaf_frog_unable_to_hear_the_discouragement_interprets_the_other_frogs_shouts_as_encouragement_and_perseveres_until_it_successfully_escapes_the_pit_this_teaches_children_the_importance_of_ignoring_negativity_staying_focused_on_their_aspirations_and_using_criticism_as_motivation_to_achieve_success"
+                android:textColor="#0F1E64"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
